@@ -1,6 +1,6 @@
 #sidebar{
-    background: #020509;
-    grid-area: sidebar;
+    background: #e63601ea;
+    grid-area: auto;
     overflow-x: auto;
     padding: 20px;
     -webkit-transition: all 0.5s;
