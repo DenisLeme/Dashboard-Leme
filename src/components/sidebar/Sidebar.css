@@ -1,5 +1,5 @@
 #sidebar{
-    background: #e63601ea;
+    background: #1b070054;
     grid-area: auto;
     overflow-x: auto;
     padding: 20px;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(240, 239, 239);
     margin-bottom: 30px;
 }
 .sidebar___img{
@@ -34,7 +34,7 @@
     display: none;
 }
 .sidebar__menu > h2 {
-    color: #3ea175;
+    color: #000000;
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -67,13 +67,18 @@
 .sidebar__logout{
     margin-top: 20px;
     padding: 10px;
-    color: #020509;
+    color: #f4f5f6;
 }
 .sidebar__logout > a{
     text-decoration: none;
     color: #2054bd;
     font-weight: 700;
     text-transform: uppercase;
+}
+.sidebar__logout > i{
+    margin-right: 10px;
+    font-size: 18px;
+
 }
 .sidebar-responsive{
     display: inline !important;
