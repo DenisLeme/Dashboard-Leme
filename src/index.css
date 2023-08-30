@@ -46,16 +46,17 @@ body{
 .text-yellow{
   color: #a98921;
 }
-.text-gren{
+.text-green{
   color: #3b9668;
 }
 .container{
+  /* para tirar o grid e tudo voltar ao devido lugar coloque o display flex */
   display: grid;
   height: 100vh;
-  grid-template-columns: 0.8fr repeat(3,1fr);
+  grid-template-columns: 0.8fr repeat(3, 1fr);
   grid-template-rows: 0.2 3fr;
   grid-template-areas: 'sidebar nav nav nav'
-  'sidebar main main';
+  'sidebar main main main';
 }
 @media only screen and (max-width: 978px){
   .container{

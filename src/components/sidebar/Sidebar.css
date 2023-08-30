@@ -1,6 +1,6 @@
 #sidebar{
-    background: #1b070054;
-    grid-area: auto;
+    background: #39447a;
+    grid-area: sidebar;
     overflow-x: auto;
     padding: 20px;
     -webkit-transition: all 0.5s;
@@ -42,13 +42,13 @@
     font-weight: 700;
 }
 .sidebar__link {
-    color: #2054bd;
+    color: #000000;
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 5px;
 }
 .active_menu_link a {
-    color: #2054bd !important;
+    color: #010006 !important;
 }
 .sidebar__link > a {
     text-decoration: none;
@@ -71,7 +71,7 @@
 }
 .sidebar__logout > a{
     text-decoration: none;
-    color: #2054bd;
+    color: #fc0505;
     font-weight: 700;
     text-transform: uppercase;
 }
